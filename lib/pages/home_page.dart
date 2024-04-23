@@ -67,7 +67,7 @@ class _HomePageState extends State<HomePage> {
 
                 // other pages
                 const Padding(
-                  padding: const EdgeInsets.only(left: 25.0),
+                  padding: EdgeInsets.only(left: 25.0),
                   child: ListTile(
                       leading: Icon(Icons.home, color: Colors.white),
                       title: Text(
@@ -77,7 +77,9 @@ class _HomePageState extends State<HomePage> {
                 ),
 
                 const Padding(
-                  padding: const EdgeInsets.only(left: 25.0),
+                  padding: EdgeInsets.only(
+                    left: 25.0,
+                  ),
                   child: ListTile(
                       leading: Icon(Icons.info, color: Colors.white),
                       title: Text(
@@ -88,7 +90,7 @@ class _HomePageState extends State<HomePage> {
               ],
             ),
             const Padding(
-              padding: const EdgeInsets.only(left: 25.0),
+              padding: EdgeInsets.only(left: 25.0, bottom: 25),
               child: ListTile(
                   leading: Icon(Icons.logout, color: Colors.white),
                   title: Text(
